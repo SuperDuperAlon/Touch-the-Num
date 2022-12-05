@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Touch Nums</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body onload="init()">
+    <div class="alert">You Lost!</div>
+    <div class="header"><h1>Touch the Nums</h1></div>
+    <span class="countdown">
+      Time Left <br />
+      <span class="secs">30:000</span>
+    </span>
+    <table border="1" cellpadding="5" class="board">
+      <tbody></tbody>
+    </table>
+    <!-- <h2>Set difficulty level</h2> -->
+    <div class="level">
+      <button class="easy" onclick="changeLevel(this)">
+        <span>Easy</span><br />
+        16 Blocks
+      </button>
+      <button class="medium" onclick="changeLevel(this)">
+        <span>Medium</span><br />
+        25 Blocks
+      </button>
+      <button class="hard" onclick="changeLevel(this)">
+        <span>Hard</span><br />
+        36 Blocks
+      </button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

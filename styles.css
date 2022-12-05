@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    box-sizing: content-box;
+    background-image: url("assets/cityskyline.png");
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    font-family: 'Press Start 2P', cursive;
+    color: crimson;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    padding: 25px;
+}
+
+.countdown {
+    color: #fff;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+table {
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    background-color: white;
+    margin-top: 25px;
+}
+
+
+td.correctAns {
+    background-color: blueviolet;
+    color: white;
+    width: 12px;
+}
+
+.easy, .medium, .hard{
+    border-radius: 45px;
+    border: 2px;
+    border-style: groove;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin: 0 7px;
+    
+}
+
+.easy span, .medium span, .hard span{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.easy:hover, .medium:hover, .hard:hover {
+    color: white;
+    background-color: crimson;
+}
+
+td.cell {
+    background-color: rgb(219, 71, 100);
+    color: white;
+    width: 12px;
+}
+
+.cell:hover, .correctAns:hover {
+    opacity: 80%;
+}
+
+.level {
+    margin-top: 50px
+}
